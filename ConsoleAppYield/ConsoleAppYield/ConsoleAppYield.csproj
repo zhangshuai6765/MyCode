@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F7EA7E9-3918-4CFF-BC01-276131F1BAD7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleAppYield</RootNamespace>
+    <AssemblyName>ConsoleAppYield</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Commons">
+      <HintPath>..\..\..\资料\ASP.NET\Project.Memcache\Project.Memcache\Project.Memcache\dll\Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\资料\ASP.NET\Project.Memcache\Project.Memcache\Project.Memcache\dll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\资料\项目积累\百车行\gyt\服务器缓存\颜昌龙\dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnyConvert.cs" />
+    <Compile Include="Delegate\AsyncCls.cs" />
+    <Compile Include="Delegate\AsyncDelegate.cs" />
+    <Compile Include="Delegate\Delegate.cs" />
+    <Compile Include="Delegate\ObserverDesgin.cs" />
+    <Compile Include="Delegate\Publisher.cs" />
+    <Compile Include="DesignModel\Base.cs" />
+    <Compile Include="DesignModel\Class1.cs" />
+    <Compile Include="DesignModel\IBase.cs" />
+    <Compile Include="Distinct.cs" />
+    <Compile Include="DistinctTest.cs" />
+    <Compile Include="DynamicCls\DynamicProduct.cs" />
+    <Compile Include="DynamicCls\DynamicTest.cs" />
+    <Compile Include="DynamicCls\FanShe.cs" />
+    <Compile Include="DynamicCls\FuncAndAction.cs" />
+    <Compile Include="DynamicCls\Suoyinqi.cs" />
+    <Compile Include="ExtensionString.cs" />
+    <Compile Include="GroupByTest.cs" />
+    <Compile Include="HeapAndStack.cs" />
+    <Compile Include="IntToHex.cs" />
+    <Compile Include="MemcacheTest\OperateCache.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sender.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="test1.cs" />
+    <Compile Include="Test\TestFat.cs" />
+    <Compile Include="Test\WhereTest.cs" />
+    <Compile Include="Transportation.cs" />
+    <Compile Include="TreeCode.cs" />
+    <Compile Include="UnixStampDemp.cs" />
+    <Compile Include="yucha.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\资料\项目积累\百车行\gyt\服务器缓存\颜昌龙\clientlib\clientlib\Memcached.ClientLibrary.csproj">
+      <Project>{4770d032-9b06-450d-8b00-7200d8330397}</Project>
+      <Name>Memcached.ClientLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DynamicCls\Employees.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+D:\Projects\ConsoleAppYield\ConsoleAppYield\bin\Debug\ConsoleAppYield.exe
+D:\Projects\ConsoleAppYield\ConsoleAppYield\bin\Debug\ConsoleAppYield.pdb
+D:\Projects\ConsoleAppYield\ConsoleAppYield\obj\Debug\ConsoleAppYield.exe
+D:\Projects\ConsoleAppYield\ConsoleAppYield\obj\Debug\ConsoleAppYield.pdb
+D:\Projects\ConsoleAppYield\ConsoleAppYield\bin\Debug\Memcached.ClientLibrary.dll
+D:\Projects\ConsoleAppYield\ConsoleAppYield\bin\Debug\log4net.dll
+D:\Projects\ConsoleAppYield\ConsoleAppYield\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Projects\ConsoleAppYield\ConsoleAppYield\bin\Debug\Commons.dll
+D:\Projects\ConsoleAppYield\ConsoleAppYield\bin\Debug\Memcached.ClientLibrary.pdb
+D:\Projects\ConsoleAppYield\ConsoleAppYield\obj\Debug\ConsoleAppYield.csprojResolveAssemblyReference.cache
+D:\Projects\ConsoleAppYield\ConsoleAppYield\bin\Debug\DynamicCls\Employees.xml
